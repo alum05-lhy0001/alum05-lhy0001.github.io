@@ -54,7 +54,35 @@ The goal is to attract potential customers to purchase relevant products beyond 
 **6) Documentation:** Document all steps taken in the data preparation process for reproducibility and to ensure clarity in the methodology.
 
 ### Modelling
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+**Model 1** - Pipeline-Based Approach Model or K-means++:
+- Unsupervised, unlabelled machine learning algorithm
+- Clustering data into K groups, clusters based on the features similarity
+- Each data point belongs to the particular cluster with the nearest mean
+
+A Pipeline helps automate preprocessing steps before applying KMeans. A ColumnTransformer is used to apply different preprocessing techniques to different columns (e.g., scaling numerical features and encoding categorical ones).
+**Select relevant numerical features**
+numerical_features = ['balance','age_group_num']
+
+**Select categorical features**
+categorical_features = ['job', 'marital', 'education', 'housing']
+
+with help of **'Elbow Method for Optimal K'** to find the number of cluster most optimal
+with 80% training sample, 20% validation sample
+create scatterplot to bubbles of different size.
+
+once confirmed the cluster 2 is the **high-value customers**, Filter and display all customers belonging to Cluster 2
+cluster_2_customers = marketing_data[marketing_data['cluster'] == 2] 
+
+**Model 2** - The standard K-means:
+**1) Convert all numeric-looking columns to int64**
+**2) Verify the conversion**
+**3) Standardize text values: strip spaces and convert to lowercase**
+**4) Map values again and replace NaN with 0**
+**5) # Verify the changes**
+**6) # Selected features to explore**
+**7) try arbitrarily 3 clusters**
+**8) Principal Component Analysis for Visualization**
+**9) # Plot the scatter plot**
 
 ### Evaluation
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
