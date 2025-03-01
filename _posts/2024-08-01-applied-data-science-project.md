@@ -85,17 +85,42 @@ cluster_2_customers = marketing_data[marketing_data['cluster'] == 2]
 **9) # Plot the scatter plot**
 
 ### Evaluation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+
+**1) Goal:** model performance align with business goals, explore the high-value customers group
+**Technical Evaluation:**
+Use metrics like accuracy, precision, recall, F1-score, ROC-AUC, or RMSE.
+Validate models on holdout test data or via cross-validation.
+Compare multiple models (e.g., A/B testing).
+**Business Evaluation:**
+Assess ROI, feasibility, and ethical implications (e.g., bias, fairness).
+**Output:**
+Performance reports (e.g.Silhouette Coefficient, a higher Silhouette Score means: Clusters are well-separated ).
+Decision-making for deployment-management decides
 
 ## Recommendation and Analysis
-Explain the analysis and recommendations
+**Conclusion:** 
+We propose a **Differentiated Marketing Strategy** for IJJ Bank to target multiple market segments with tailored products and strategies. Customers will be grouped into clusters based on their demographic characteristics, and marketing campaigns will be scheduled accordingly to promote relevant products.
+After implementing the stage 1 deployment, evaluating the outcomes in terms of the performance of the marketing campaigns and the informations of the products buying. The collected data will be the datum line for the stage 2 targeting strategy, to fine tuning the features, i.e. the job, education among the age groups.
+**Recommendation**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+**1)to achieve the retain and enhance the services to high-value custormers in saving accounts - target the cluster 2 customers**
+**2) to attract the new customers from within the banks or external customers:**
+a. to target customers without housing loan or bank loan the moderate risk products, visa cards, etc.
+b. to target the customers of old ages with low risk products, e.g. the bonds or time deposit.
 
 ## AI Ethics
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+**1. Privacy**:  
+Collecting transaction histories in bank, risks in violating privacy laws like PDPA/GDPR if not anonymized or consented (signed with consent forms). 
+**2. Fairness**:  
+Bias may arise if models overrepresent affluent demographics. Historical data might undervalue younger customers. 
+**3. Accuracy**:  
+a. Datasets lack of all the source of incomes, like visa cards, shares, housing loans actual amounts, etc. will deviate the results and biased only on the incomes from the saving.
+b. Incomplete data (e.g., missing transactions) or mislabeling customers as “low-value” due to temporary setbacks (e.g., medical bills) reduces reliability. 
+**4. Accountability**:  
+Unclear ownership of errors, who are to be accountable and lack of monitoring for performance and conduct. Establish governance frameworks (e.g., an ethics committee)is neccesary.
+**5. Transparency:**
+Black-box models (e.g., neural networks) hinder explainability, use interpretable models to facilitate the communication of policies plainly and enable feedback channels.  
 
 ## Source Codes and Datasets
 Upload your model files and dataset into a GitHub repo and add the link here. 
