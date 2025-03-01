@@ -40,7 +40,18 @@ The goal is to attract potential customers to purchase relevant products beyond 
 2) Overall, through the application of **statistical analysis tools and machine learning models**, the project successfully supports management in implementing **differentiated marketing strategies**. These strategies help target diverse customer segments according to their preferences while staying within budget constraints.
 
 ### Data Preparation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+### Steps for Data Preparation
+**1) Data Collection:** Gather the necessary data by exploring different sources, e.g., Kaggle.
+
+**2) Data Cleaning:** Identify and correct errors, remove duplicates, handle missing values (e.g., check if there are null cells in any of the columns using incomes_mod.isnull().any()), and correct inconsistencies.
+
+**3) Data Integration:** Combine data from different sources. This step often involves merging tables into a unified dataset (e.g., joining tables).
+
+**4) Data Transformation:** Convert data into a suitable format for analysis. This may include normalization, standardization (e.g., standardizing text values by stripping spaces and converting to lowercase), encoding categorical variables to numerical (e.g., marketing_data = marketing_data.apply(pd.to_numeric, errors='coerce').astype('Int64')), and creating new derived variables (e.g., profit = revenue - cost).
+
+**5) Data Exploration:** Conduct preliminary analysis to understand the characteristics of the data. This can include visualizations, summary statistics, and identifying patterns or anomalies (e.g., creating histograms to visualize demographics versus bank balance to see how different clusters of customers behave differently).
+
+**6) Documentation:** Document all steps taken in the data preparation process for reproducibility and to ensure clarity in the methodology.
 
 ### Modelling
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
