@@ -5,6 +5,7 @@ title: "Applied Data Science Project Documentation"
 categories: ITD214
 ---
 ## Project Background
+https://drive.google.com/file/d/135OVGCZjkDwZNlcZgHEgEUfALto30Mzb/view?usp=drive_link
 ### Background:
 IJJ Pte Ltd is a medium-sized bank headquartered in Singapore, serving a diverse clientele ranging from individual customers to small and medium enterprises (SMEs). As a growing financial institution, the bank aims to strengthen its market position by leveraging technology and data-driven strategies/insights. 
 
