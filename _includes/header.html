@@ -28,4 +28,43 @@
       </nav>
     {%- endif -%}
   </div>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Banner</title>
+    <style>
+        .banner-container {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            background: #222;
+            color: white;
+            padding: 10px 0;
+            font-size: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .banner-text {
+            display: inline-block;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-container">
+        <div class="banner-text">Welcome to My NYP DAta Science Project Page! Stay a while to explore, more fun!</div>
+    </div>
+</body>
+</html>
+
 </header>
