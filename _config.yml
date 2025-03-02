@@ -2,6 +2,23 @@ title: Data Science Project Showcase
 author:
   name: LO Hung Yin
   email: alum05-lhy0001@e.ntu.edu.sg
+.banner-container {
+    width: 100%;
+    height: 60px;
+    background: url(https://drive.google.com/file/d/135OVGCZjkDwZNlcZgHEgEUfALto30Mzb/view?usp=drive_link) no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
