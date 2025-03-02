@@ -41,7 +41,6 @@ The goal is to attract potential customers to purchase relevant products beyond 
 2) Overall, through the application of **statistical analysis tools and machine learning models**, the project successfully supports management in implementing **differentiated marketing strategies**. These strategies help target diverse customer segments according to their preferences while staying within budget constraints.
 
 ### Data Preparation
-<img src="CRISP-DM.jpg" alt="CRISP-DM.jpg">
 
 ### Steps for Data Preparation
 <br/>**1) Data Collection:** Gather the necessary data by exploring different sources, e.g., Kaggle.
@@ -75,8 +74,7 @@ create scatterplot to bubbles of different size.
 
 once confirmed the cluster 2 is the **high-value customers**, Filter and display all customers belonging to Cluster 2
 cluster_2_customers = marketing_data[marketing_data['cluster'] == 2] 
-<img src="elbow_method_k.png" alt="elbow_method_k.png"><br>
-<img src="heatMaps_housing_loans.png" alt="heatMaps_housing_loans.png">
+
 **Model 2** - The standard K-means:
 <br/>**1) Convert all numeric-looking columns to int64**
 <br/>**2) Verify the conversion**
