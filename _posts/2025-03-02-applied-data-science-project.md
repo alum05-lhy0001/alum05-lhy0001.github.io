@@ -41,7 +41,7 @@ The goal is to attract potential customers to purchase relevant products beyond 
 2) Overall, through the application of **statistical analysis tools and machine learning models**, the project successfully supports management in implementing **differentiated marketing strategies**. These strategies help target diverse customer segments according to their preferences while staying within budget constraints.
 
 ### Data Preparation
-<img src="../CRISP-DM.jpg" alt="CRISP-DM.jpg">
+<img src="CRISP-DM.jpg" alt="CRISP-DM.jpg">
 
 ### Steps for Data Preparation
 <br/>**1) Data Collection:** Gather the necessary data by exploring different sources, e.g., Kaggle.
