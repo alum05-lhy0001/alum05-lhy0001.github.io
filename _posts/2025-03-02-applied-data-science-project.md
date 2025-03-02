@@ -42,17 +42,17 @@ The goal is to attract potential customers to purchase relevant products beyond 
 
 ### Data Preparation
 ### Steps for Data Preparation
-**1) Data Collection:** Gather the necessary data by exploring different sources, e.g., Kaggle.
+<br/>**1) Data Collection:** Gather the necessary data by exploring different sources, e.g., Kaggle.
 
-**2) Data Cleaning:** Identify and correct errors, remove duplicates, handle missing values (e.g., check if there are null cells in any of the columns using incomes_mod.isnull().any()), and correct inconsistencies.
+<br/>**2) Data Cleaning:** Identify and correct errors, remove duplicates, handle missing values (e.g., check if there are null cells in any of the columns using incomes_mod.isnull().any()), and correct inconsistencies.
 
-**3) Data Integration:** Combine data from different sources. This step often involves merging tables into a unified dataset (e.g., joining tables).
+<br/>**3) Data Integration:** Combine data from different sources. This step often involves merging tables into a unified dataset (e.g., joining tables).
 
-**4) Data Transformation:** Convert data into a suitable format for analysis. This may include normalization, standardization (e.g., standardizing text values by stripping spaces and converting to lowercase), encoding categorical variables to numerical (e.g., marketing_data = marketing_data.apply(pd.to_numeric, errors='coerce').astype('Int64')), and creating new derived variables (e.g., profit = revenue - cost).
+<br/>**4) Data Transformation:** Convert data into a suitable format for analysis. This may include normalization, standardization (e.g., standardizing text values by stripping spaces and converting to lowercase), encoding categorical variables to numerical (e.g., marketing_data = marketing_data.apply(pd.to_numeric, errors='coerce').astype('Int64')), and creating new derived variables (e.g., profit = revenue - cost).
 
-**5) Data Exploration:** Conduct preliminary analysis to understand the characteristics of the data. This can include visualizations, summary statistics, and identifying patterns or anomalies (e.g., creating histograms to visualize demographics versus bank balance to see how different clusters of customers behave differently).
+<br/>**5) Data Exploration:** Conduct preliminary analysis to understand the characteristics of the data. This can include visualizations, summary statistics, and identifying patterns or anomalies (e.g., creating histograms to visualize demographics versus bank balance to see how different clusters of customers behave differently).
 
-**6) Documentation:** Document all steps taken in the data preparation process for reproducibility and to ensure clarity in the methodology.
+<br/>**6) Documentation:** Document all steps taken in the data preparation process for reproducibility and to ensure clarity in the methodology.
 
 ### Modelling
 **Model 1** - Pipeline-Based Approach Model or K-means++:
@@ -75,15 +75,15 @@ once confirmed the cluster 2 is the **high-value customers**, Filter and display
 cluster_2_customers = marketing_data[marketing_data['cluster'] == 2] 
 
 **Model 2** - The standard K-means:
-**1) Convert all numeric-looking columns to int64**
-**2) Verify the conversion**
-**3) Standardize text values: strip spaces and convert to lowercase**
-**4) Map values again and replace NaN with 0**
-**5) # Verify the changes**
-**6) # Selected features to explore**
-**7) try arbitrarily 3 clusters**
-**8) Principal Component Analysis for Visualization**
-**9) # Plot the scatter plot**
+<br/>**1) Convert all numeric-looking columns to int64**
+<br/>**2) Verify the conversion**
+<br/>**3) Standardize text values: strip spaces and convert to lowercase**
+<br/>**4) Map values again and replace NaN with 0**
+<br/>**5) # Verify the changes**
+<br/>**6) # Selected features to explore**
+<br/>**7) try arbitrarily 3 clusters**
+<br/>**8) Principal Component Analysis for Visualization**
+<br/>**9) # Plot the scatter plot**
 
 ### Evaluation
 
