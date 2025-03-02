@@ -41,6 +41,7 @@ The goal is to attract potential customers to purchase relevant products beyond 
 2) Overall, through the application of **statistical analysis tools and machine learning models**, the project successfully supports management in implementing **differentiated marketing strategies**. These strategies help target diverse customer segments according to their preferences while staying within budget constraints.
 <img src="https://drive.google.com/file/d/135OVGCZjkDwZNlcZgHEgEUfALto30Mzb/view?usp=drive_link" alt="Image">
 ### Data Preparation
+
 ### Steps for Data Preparation
 <br/>**1) Data Collection:** Gather the necessary data by exploring different sources, e.g., Kaggle.
 
@@ -101,25 +102,24 @@ Decision-making for deployment-management decides
 ## Recommendation and Analysis
 **Conclusion:** 
 We propose a **Differentiated Marketing Strategy** for IJJ Bank to target multiple market segments with tailored products and strategies. Customers will be grouped into clusters based on their demographic characteristics, and marketing campaigns will be scheduled accordingly to promote relevant products.
-After implementing the stage 1 deployment, evaluating the outcomes in terms of the performance of the marketing campaigns and the informations of the products buying. The collected data will be the datum line for the stage 2 targeting strategy, to fine tuning the features, i.e. the job, education among the age groups.
-### **Recommendation**
-
-### **1)to achieve the retain and enhance the services to high-value custormers in saving accounts - target the cluster 2 customers**
-### **2) to attract the new customers from within the banks or external customers:**
-### a. to target customers without housing loan or bank loan the moderate risk products, visa cards, etc.
-### b. to target the customers of old ages with low risk products, e.g. the bonds or time deposit.
+After implementing the stage 1 deployment, evaluating the outcomes in terms of the performance of the marketing campaigns and the informations of the products buying. The collected data will be the datum line for the stage 2 targeting strategy, to fine tuning the features, i.e. the job, education among the age groups.<br>
+**Recommendation**
+**1) to achieve the retain and enhance the services to high-value custormers in saving accounts - target the cluster 2 customers**
+**2) to attract the new customers from within the banks or external customers:**
+a. to target customers without housing loan or bank loan the moderate risk products, visa cards, etc.<br>
+b. to target the customers of old ages with low risk products, e.g. the bonds or time deposit.<br>
 
 ## AI Ethics
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project.<br> 
-### **1. Privacy**:  
+**1. Privacy**:  
 Collecting transaction histories in bank, risks in violating privacy laws like PDPA/GDPR if not anonymized or consented (signed with consent forms).<br> 
-### **2. Fairness**:  
+**2. Fairness**:  
 Bias may arise if models overrepresent affluent demographics. Historical data might undervalue younger customers.<br> 
-### **3. Accuracy**:  
+**3. Accuracy**:  
 Datasets are not comprehensive (e.g. only bank saving balance info, no time deposit or other investment records), Incomplete data (e.g., missing transactions) or mislabeling customers as “low-value” due to temporary setbacks (e.g., medical bills) reduces reliability.<br> 
-### **4. Accountability**:  
+**4. Accountability**:  
 Unclear ownership of errors, who are to be accountable and lack of monitoring for performance and conduct. Establish governance frameworks (e.g., an ethics committee)is neccesary.<br>
-### **5. Transparency:**
+**5. Transparency:**
 Black-box models (e.g., neural networks) hinder explainability, use interpretable models to facilitate the communication of policies plainly and enable feedback channels.  
 
 ## Source Codes and Datasets
