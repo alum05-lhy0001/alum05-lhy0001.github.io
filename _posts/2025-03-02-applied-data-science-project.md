@@ -102,7 +102,7 @@ Decision-making for deployment-management decides
 **Conclusion:** 
 We propose a **Differentiated Marketing Strategy** for IJJ Bank to target multiple market segments with tailored products and strategies. Customers will be grouped into clusters based on their demographic characteristics, and marketing campaigns will be scheduled accordingly to promote relevant products.
 After implementing the stage 1 deployment, evaluating the outcomes in terms of the performance of the marketing campaigns and the informations of the products buying. The collected data will be the datum line for the stage 2 targeting strategy, to fine tuning the features, i.e. the job, education among the age groups.
-**Recommendation**
+<br/>**Recommendation**
 
 <br/>**1)to achieve the retain and enhance the services to high-value custormers in saving accounts - target the cluster 2 customers**
 <br/>**2) to attract the new customers from within the banks or external customers:**
@@ -110,17 +110,16 @@ After implementing the stage 1 deployment, evaluating the outcomes in terms of t
 <br/>b. to target the customers of old ages with low risk products, e.g. the bonds or time deposit.
 
 ## AI Ethics
-Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
-<br/>**1. Privacy**:  
-Collecting transaction histories in bank, risks in violating privacy laws like PDPA/GDPR if not anonymized or consented (signed with consent forms). 
-<br/>**2. Fairness**:  
-Bias may arise if models overrepresent affluent demographics. Historical data might undervalue younger customers. 
-<br/>**3. Accuracy**:  
-<br/>a. Datasets lack of all the source of incomes, like visa cards, shares, housing loans actual amounts, etc. will deviate the results and biased only on the incomes from the saving.
-<br/>b. Incomplete data (e.g., missing transactions) or mislabeling customers as “low-value” due to temporary setbacks (e.g., medical bills) reduces reliability. 
-<br/>**4. Accountability**:  
-Unclear ownership of errors, who are to be accountable and lack of monitoring for performance and conduct. Establish governance frameworks (e.g., an ethics committee)is neccesary.
-<br/>**5. Transparency:**
+Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project.<br/> 
+**1. Privacy**:  
+Collecting transaction histories in bank, risks in violating privacy laws like PDPA/GDPR if not anonymized or consented (signed with consent forms).<br/> 
+**2. Fairness**:  
+Bias may arise if models overrepresent affluent demographics. Historical data might undervalue younger customers.<br/> 
+**3. Accuracy**:  
+<br/>b. Incomplete data (e.g., missing transactions) or mislabeling customers as “low-value” due to temporary setbacks (e.g., medical bills) reduces reliability.<br/> 
+**4. Accountability**:  
+Unclear ownership of errors, who are to be accountable and lack of monitoring for performance and conduct. Establish governance frameworks (e.g., an ethics committee)is neccesary.<br/>
+**5. Transparency:**
 Black-box models (e.g., neural networks) hinder explainability, use interpretable models to facilitate the communication of policies plainly and enable feedback channels.  
 
 ## Source Codes and Datasets
