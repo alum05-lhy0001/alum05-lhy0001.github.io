@@ -39,7 +39,7 @@ The goal is to attract potential customers to purchase relevant products beyond 
 
 1) Utilize a **heat map matrix** to categorize customers into **four quadrants**, allowing for targeted product recommendations based on age groups. This strategy was ideated by bank staff with strong domain knowledge.  
 2) Overall, through the application of **statistical analysis tools and machine learning models**, the project successfully supports management in implementing **differentiated marketing strategies**. These strategies help target diverse customer segments according to their preferences while staying within budget constraints.
-
+<img src="https://drive.google.com/file/d/135OVGCZjkDwZNlcZgHEgEUfALto30Mzb/view?usp=drive_link" alt="Image">
 ### Data Preparation
 ### Steps for Data Preparation
 <br/>**1) Data Collection:** Gather the necessary data by exploring different sources, e.g., Kaggle.
