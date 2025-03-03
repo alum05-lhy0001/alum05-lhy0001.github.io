@@ -116,13 +116,13 @@ b. to target the customers of old ages with low risk products, e.g. the bonds or
 ## AI Ethics
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project.<br>
 **1. Privacy**:  
-Collecting transaction histories in bank, risks in violating privacy laws like PDPA/GDPR if not anonymized or consented (signed with consent forms). 
+Collecting transaction histories in bank, risks in violating privacy laws like PDPA/GDPR if not anonymized or consented (signed with consent forms).<br> 
 **2. Fairness**:  
-Bias may arise if models overrepresent affluent demographics. Historical data might undervalue younger customers. 
+Bias may arise if models overrepresent affluent demographics. Historical data might undervalue younger customers.<br> 
 **3. Accuracy**:  
-Datasets are not comprehensive (e.g. only bank saving balance info, no time deposit or other investment records), Incomplete data (e.g., missing transactions) or mislabeling customers as “low-value” due to temporary setbacks (e.g., medical bills) reduces reliability. 
+Datasets are not comprehensive (e.g. only bank saving balance info, no time deposit or other investment records), Incomplete data (e.g., missing transactions) or mislabeling customers as “low-value” due to temporary setbacks (e.g., medical bills) reduces reliability.<br> 
 **4. Accountability**:  
-Unclear ownership of errors, who are to be accountable and lack of monitoring for performance and conduct. Establish governance frameworks (e.g., an ethics committee)is neccesary.
+Unclear ownership of errors, who are to be accountable and lack of monitoring for performance and conduct. Establish governance frameworks (e.g., an ethics committee)is neccesary.<br>
 **5. Transparency:**
 Black-box models (e.g., neural networks) hinder explainability, use interpretable models to facilitate the communication of policies plainly and enable feedback channels.  
 
