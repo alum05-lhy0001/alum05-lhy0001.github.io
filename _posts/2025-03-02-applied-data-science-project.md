@@ -15,23 +15,23 @@ IJJ Pte Ltd struggles to attract high-value customers, optimize marketing effort
 ### Business Goal
 To enhance customer retention, improve marketing strategies, and effectively resolve customer complaints for better satisfaction and brand loyalty.
 
-### Objective 1 : Attract New and Retain Existing High-Value Customers (LO HUNG-YIN)
+### Objective 1 : Attract New and Retain Existing High-Value Customers
 Enhance customer targeting with data-driven insights to match high-value customers with relevant financial products, boosting marketing effectiveness, satisfaction, and growth.
-### Objective 2 : Enhance Marketing Performance (Joycelyn)
+### Objective 2 : Enhance Marketing Performance 
 Implement proven marketing strategies to improve customer engagement (measured by whether a customer has signed up for term deposit in this case).
-### Objective 3 : Analyze customer feedback related to product and services. (Ivy)
+### Objective 3 : Analyze customer feedback related to product and services. 
 Leverage bank review analysis to identify opportunities for enhancing IJJ's product and service offerings, ultimately improving customer experience and driving business growth.
 
 ## Work Accomplished
 ### Outcomes  
 
-The outcomes comprise two parts:  
+The outcomes for objective 1 comprise two parts:  
 
 #### **Part 1: Identifying Existing High-Value Customers**  
 The goal is to identify high-value customers and provide them with premium services to enhance retention.  
 
 1) Use the **K-means+ Pipeline-Based Approach Model** to identify **Cluster 2**, which represents high-value customers.  
-2) Use the **Standard K-means clustering model** to segment customers into four clusters (optimal K value). This approach successfully identifies **Cluster 2** as well.  
+2) Use the **Standard K-means clustering model** to segment customers into four clusters (optimal K value). This approach successfully identifies **Cluster 2** as well. In terms of coverage, Model 2 are selected for deployment.  
 3) In the **deployment stage**, after approval, the refined dataset of high-value customers will be handed over to the marketing team for integration into the bank’s marketing strategy.  
 
 #### **Part 2: Identifying Potential Customers**  
@@ -39,7 +39,11 @@ The goal is to attract potential customers to purchase relevant products beyond 
 
 1) Utilize a **heat map matrix** to categorize customers into **four quadrants**, allowing for targeted product recommendations based on age groups. This strategy was ideated by bank staff with strong domain knowledge.  
 2) Overall, through the application of **statistical analysis tools and machine learning models**, the project successfully supports management in implementing **differentiated marketing strategies**. These strategies help target diverse customer segments according to their preferences while staying within budget constraints.
-
+### Methodology
+Use **CRISP or Cross Industry Standard Process for Data Mining** framework to perform all the tasks.
+<div style="text-align: center;">
+  <img src="CRISP-DM.jpg" alt="CRISP-DM Image" width="300">
+</div>
 ### Data Preparation
 
 ### Steps for Data Preparation
