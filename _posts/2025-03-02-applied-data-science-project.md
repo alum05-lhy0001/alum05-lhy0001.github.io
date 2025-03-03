@@ -44,8 +44,8 @@ Use **CRISP or Cross Industry Standard Process for Data Mining** framework to pe
 <div style="text-align: center;">
   <img src="CRISP-DM.jpg" alt="CRISP-DM Image" width="300">
 </div>
-###Data Preparation
 
+### Data Preparation
 ### Steps for Data Preparation
 <br/>**1) Data Collection:** Gather the necessary data by exploring different sources, e.g., Kaggle.
 
