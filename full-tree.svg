@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="680" viewBox="0 0 900 680">
+  <style>
+    .mono { font-family: "Courier New", monospace; font-size:14px; fill:#111 }
+    .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial; font-size:18px; font-weight:bold }
+  </style>
+  <rect width="100%" height="100%" fill="#fff" />
+  <text x="20" y="32" class="title">Project file tree — react-canvas</text>
+  <g transform="translate(20,60)" class="mono">
+    <text x="0" y="0">react-canvas/</text>
+    <text x="12" y="24">├─ .gitignore</text>
+    <text x="12" y="48">├─ index.html</text>
+    <text x="12" y="72">├─ package.json</text>
+    <text x="12" y="96">├─ README.md</text>
+    <text x="12" y="120">├─ vite.config.js</text>
+    <text x="12" y="144">├─ canvas-summary.html</text>
+    <text x="12" y="168">├─ public/</text>
+    <text x="36" y="192">└─ vite.svg</text>
+    <text x="12" y="216">├─ node_modules/  (collapsed)</text>
+    <text x="12" y="240">└─ src/</text>
+    <text x="36" y="264">├─ App.jsx</text>
+    <text x="36" y="288">├─ App.css</text>
+    <text x="36" y="312">├─ index.css</text>
+    <text x="36" y="336">├─ main.jsx</text>
+    <text x="36" y="360">├─ assets/</text>
+    <text x="60" y="384">└─ react.svg</text>
+    <text x="36" y="408">└─ components/</text>
+    <text x="60" y="432">├─ Account.jsx</text>
+    <text x="60" y="456">├─ Calendar.jsx</text>
+    <text x="60" y="480">├─ Courses.jsx</text>
+    <text x="60" y="504">├─ Dashboard.jsx</text>
+    <text x="60" y="528">├─ Files.jsx</text>
+    <text x="60" y="552">├─ History.jsx</text>
+    <text x="60" y="576">├─ Inbox.jsx</text>
+    <text x="60" y="600">├─ Login.jsx</text>
+    <text x="60" y="624">└─ PlannerEmptyState.jsx</text>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+name: Deploy to alum05-lhy0001.github.io
+
+# Trigger on push to main and allow manual runs from the Actions UI.
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      # Deploy to the user-pages repo. This requires a personal access token
+      # with repo permissions stored as the secret DEPLOY_TOKEN in this repo's settings.
+      - name: Deploy to user site
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # Branch in the target user site repo to push to (e.g. main or master).
+          branch: main
+          folder: dist
+          repository-name: alum05-lhy0001/alum05-lhy0001.github.io
+          # This must be a Personal Access Token (PAT) stored as DEPLOY_TOKEN in this repo's secrets.
+          token: ${{ secrets.DEPLOY_TOKEN }}

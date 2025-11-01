@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NewCanvas - Summary</title>
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin: 24px; color: #111 }
+    header { border-bottom: 1px solid #ddd; margin-bottom: 16px }
+    h1 { margin: 0; font-size: 1.5rem }
+    .section { margin: 12px 0 }
+    pre { background:#f6f8fa; padding:12px; border-radius:6px; overflow:auto }
+    .controls { position: fixed; right: 20px; bottom: 20px }
+    button { background:#0366d6; color:#fff; border:none; padding:10px 14px; border-radius:6px; cursor:pointer }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NewCanvas - Summary of added components</h1>
+    <p>Generated: October 19, 2025</p>
+  </header>
+
+  <div class="section">
+    <h2>Files added</h2>
+    <ul>
+      <li><code>src/components/Login.jsx</code></li>
+      <li><code>src/components/Account.jsx</code></li>
+      <li><code>src/components/Dashboard.jsx</code></li>
+      <li><code>src/components/Courses.jsx</code></li>
+      <li><code>src/components/Files.jsx</code></li>
+      <li><code>src/components/Calendar.jsx</code></li>
+      <li><code>src/components/Inbox.jsx</code></li>
+      <li><code>src/components/History.jsx</code></li>
+      <li><code>src/components/PlannerEmptyState.jsx</code></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>App changes</h2>
+    <p><code>src/App.jsx</code> was updated to use <code>react-router-dom</code> and route to the new components. A simple top navigation was added.</p>
+  </div>
+
+  <div class="section">
+    <h2>How to view and save as PDF</h2>
+    <ol>
+      <li>Open this file in a browser: <code>file://.../react-canvas/canvas-summary.html</code> (or serve it from the dev server)</li>
+      <li>Click the <strong>Download as PDF</strong> button (or press Ctrl/Cmd+P) to open the print dialog, then choose "Save as PDF".</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>Notes</h2>
+    <p>The components are placeholders. I can embed the exact SVG from your Canvas planner HTML into <code>PlannerEmptyState.jsx</code>, or implement real authentication and API-backed data. Tell me which you prefer.</p>
+  </div>
+
+  <div class="controls">
+    <button onclick="window.print()">Download as PDF</button>
+  </div>
+</body>
+</html>

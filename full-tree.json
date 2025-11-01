@@ -1,0 +1,36 @@
+{
+  "name": "react-canvas",
+  "type": "directory",
+  "children": [
+    { "name": ".gitignore", "type": "file" },
+    { "name": "index.html", "type": "file" },
+    { "name": "package.json", "type": "file" },
+    { "name": "README.md", "type": "file" },
+    { "name": "vite.config.js", "type": "file" },
+    { "name": "canvas-summary.html", "type": "file" },
+    { "name": "public", "type": "directory", "children": [
+      { "name": "vite.svg", "type": "file" }
+    ]},
+    { "name": "node_modules", "type": "directory", "note": "collapsed - contains installed packages" },
+    { "name": "src", "type": "directory", "children": [
+      { "name": "App.jsx", "type": "file" },
+      { "name": "App.css", "type": "file" },
+      { "name": "index.css", "type": "file" },
+      { "name": "main.jsx", "type": "file" },
+      { "name": "assets", "type": "directory", "children": [
+        { "name": "react.svg", "type": "file" }
+      ]},
+      { "name": "components", "type": "directory", "children": [
+        { "name": "Account.jsx", "type": "file" },
+        { "name": "Calendar.jsx", "type": "file" },
+        { "name": "Courses.jsx", "type": "file" },
+        { "name": "Dashboard.jsx", "type": "file" },
+        { "name": "Files.jsx", "type": "file" },
+        { "name": "History.jsx", "type": "file" },
+        { "name": "Inbox.jsx", "type": "file" },
+        { "name": "Login.jsx", "type": "file" },
+        { "name": "PlannerEmptyState.jsx", "type": "file" }
+      ]}
+    ]}
+  ]
+}

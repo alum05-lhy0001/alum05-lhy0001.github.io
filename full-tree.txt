@@ -1,0 +1,29 @@
+react-canvas/
+|-- .gitignore
+|-- index.html
+|-- package.json
+|-- README.md
+|-- vite.config.js
+|-- canvas-summary.html
+|-- public/
+|   `-- vite.svg
+|-- node_modules/ (collapsed)
+`-- src/
+    |-- App.jsx
+    |-- App.css
+    |-- index.css
+    |-- main.jsx
+    |-- assets/
+    |   `-- react.svg
+    `-- components/
+        |-- Account.jsx
+        |-- Calendar.jsx
+        |-- Courses.jsx
+        |-- Dashboard.jsx
+        |-- Files.jsx
+        |-- History.jsx
+        |-- Inbox.jsx
+        |-- Login.jsx
+        `-- PlannerEmptyState.jsx
+
+(End of tree)

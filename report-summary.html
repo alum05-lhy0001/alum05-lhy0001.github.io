@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NewCanvas - Report Summary</title>
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin: 24px; color: #111 }
+    header { border-bottom: 1px solid #ddd; margin-bottom: 16px }
+    h1 { margin: 0; font-size: 1.5rem }
+    .section { margin: 12px 0 }
+    pre { background:#f6f8fa; padding:12px; border-radius:6px; overflow:auto; max-height: 420px }
+    .controls { position: fixed; right: 20px; bottom: 20px }
+    button { background:#0366d6; color:#fff; border:none; padding:10px 14px; border-radius:6px; cursor:pointer }
+    .stats { display:flex; gap:16px; margin-top:8px }
+    .stat { background:#fafafa; padding:8px 12px; border-radius:6px; border:1px solid #eee }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NewCanvas - Compiled Report Summary</h1>
+    <p>Generated: October 19, 2025</p>
+  </header>
+
+  <div class="section">
+    <h2>Overview</h2>
+    <p>This report compiles the project summary and file tree for <strong>react-canvas</strong>. It mirrors the earlier <code>canvas-summary.html</code> but includes the full repository tree embedded below.</p>
+  </div>
+
+  <div class="section">
+    <h2>Files added (high level)</h2>
+    <ul>
+      <li><code>src/components/Login.jsx</code></li>
+      <li><code>src/components/Account.jsx</code></li>
+      <li><code>src/components/Dashboard.jsx</code></li>
+      <li><code>src/components/Courses.jsx</code></li>
+      <li><code>src/components/Files.jsx</code></li>
+      <li><code>src/components/Calendar.jsx</code></li>
+      <li><code>src/components/Inbox.jsx</code></li>
+      <li><code>src/components/History.jsx</code></li>
+      <li><code>src/components/PlannerEmptyState.jsx</code></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>App changes</h2>
+    <p><code>src/App.jsx</code> was updated to use <code>react-router-dom</code> and route to the new components. A simple top navigation was added.</p>
+  </div>
+
+  <div class="section">
+    <h2>Project tree (full-tree.json)</h2>
+    <p>The JSON below is the compiled repository tree snapshot used to generate this report.</p>
+    <pre id="treeJson">{
+  "name": "react-canvas",
+  "type": "directory",
+  "children": [
+    { "name": ".gitignore", "type": "file" },
+    { "name": "index.html", "type": "file" },
+    { "name": "package.json", "type": "file" },
+    { "name": "README.md", "type": "file" },
+    { "name": "vite.config.js", "type": "file" },
+    { "name": "canvas-summary.html", "type": "file" },
+    { "name": "public", "type": "directory", "children": [
+      { "name": "vite.svg", "type": "file" }
+    ]},
+    { "name": "node_modules", "type": "directory", "note": "collapsed - contains installed packages" },
+    { "name": "src", "type": "directory", "children": [
+      { "name": "App.jsx", "type": "file" },
+      { "name": "App.css", "type": "file" },
+      { "name": "index.css", "type": "file" },
+      { "name": "main.jsx", "type": "file" },
+      { "name": "assets", "type": "directory", "children": [
+        { "name": "react.svg", "type": "file" }
+      ]},
+      { "name": "components", "type": "directory", "children": [
+        { "name": "Account.jsx", "type": "file" },
+        { "name": "Calendar.jsx", "type": "file" },
+        { "name": "Courses.jsx", "type": "file" },
+        { "name": "Dashboard.jsx", "type": "file" },
+        { "name": "Files.jsx", "type": "file" },
+        { "name": "History.jsx", "type": "file" },
+        { "name": "Inbox.jsx", "type": "file" },
+        { "name": "Login.jsx", "type": "file" },
+        { "name": "PlannerEmptyState.jsx", "type": "file" }
+      ]}
+    ]}
+  ]
+}</pre>
+  </div>
+
+  <div class="section">
+    <h2>Notes and next steps</h2>
+    <p>The components listed are simple placeholders. Possible next steps:</p>
+    <ul>
+      <li>Wire up the components to a backend API (the server lives in <code>server/index.cjs</code>).</li>
+      <li>Seed the local DB with PDFs using <code>server/seed.cjs</code> (place PDFs in <code>data/ebooks</code>).</li>
+      <li>Replace <code>PlannerEmptyState.jsx</code> with the exact Canvas SVG if you want a pixel-perfect preview.</li>
+    </ul>
+  </div>
+
+  <div class="controls">
+    <button onclick="window.print()">Download as PDF</button>
+  </div>
+</body>
+</html>
